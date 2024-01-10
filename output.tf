@@ -77,7 +77,3 @@ output "exampleoutput" {
 output "character_enemy_output" {
   value = local.character_enemy_map
 }
-
-output "simple_flattened_list_result" {​
-  value = local.simple_local_flattened_list​
-}​
