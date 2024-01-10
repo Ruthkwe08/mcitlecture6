@@ -77,3 +77,7 @@ output "exampleoutput" {
 output "character_enemy_output" {
   value = local.character_enemy_map
 }
+
+output "flattened_map_result" {​
+  value = local.flattened_map​
+}
