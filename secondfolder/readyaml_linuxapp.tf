@@ -28,3 +28,6 @@ resource "azurerm_linux_web_app" "batcha06webapp" {
 
   site_config {}
 }
+output "linux_app_list_output"{
+ value = local.linux_app_list
+}
